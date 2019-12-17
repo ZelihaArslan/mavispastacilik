@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MavisPastacılık</title>
+<style type="text/css">
+#uye {
+	clear: both;
+	height: auto;
+	width: 980px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+	color: #4F024F;
+}
+#uye table {
+	text-align: left;
+	margin-left: 280px;
+}
+tr td #textarea {
+	width: 200px;
+	height: 90px;
+}
+</style>
+<script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
+</head>
+
+<body bgcolor="#F7FBF5">
+<div id="uye">
+  <p>&nbsp;</p>
+  <p><em><strong>YORUMLARINIZI BEKLİYORUUZ :)</strong></em></p>
+  <table width="351" height="603" border="0">
+    <tbody>
+      <tr>
+        <td colspan="2"><p>
+          <label for="textfield"><strong>Adınız:</strong></label>
+        </p>
+          <p>
+            <input type="text" name="textfield" id="textfield">
+        </p></td>
+      </tr>
+      <tr>
+        <td colspan="2"><p>
+          <label for="email"><strong>Email:</strong></label>
+        </p>
+          <p>
+            <input type="email" name="email" id="email">
+        </p></td>
+      </tr>
+      <tr>
+        <td colspan="2"><p>
+          <label for="textarea"><strong>Mesajınız:</strong></label>
+        </p>
+          <p>
+            <textarea name="textarea" id="textarea"></textarea>
+        </p></td>
+      </tr>
+      <tr>
+        <td width="239"><p>
+          <label for="number"><strong>Güvenlik Kontrolü:</strong></label>
+          </p>
+          <p>5*3+5=? 
+            <input type="number" name="number" id="number">
+        </p></td>
+        <td width="95"><input type="submit" name="submit" id="submit" value="Gönder"></td>
+      </tr>
+      <tr>
+        <td height="275" colspan="2"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="422" height="251" id="FLVPlayer">
+          <param name="movie" value="FLVPlayer_Progressive.swf" />
+          <param name="quality" value="high">
+          <param name="wmode" value="opaque">
+          <param name="scale" value="noscale">
+          <param name="salign" value="lt">
+          <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=video/pasta&amp;autoPlay=false&amp;autoRewind=false" />
+          <param name="swfversion" value="8,0,0,0">
+          <!-- Bu param etiketi, Flash Player 6.0 r65 ve üzerini kullanan kullanıclardan Flash Player'ın en son sürümünü indirmesini ister. Kullanıcıların istemi görmesini istemiyorsanız bu etiketi silin. -->
+          <param name="expressinstall" value="Scripts/expressInstall.swf">
+          <!-- Sonraki nesne etiketi IE tarayıcısı dışındaki tarayıcılara yöneliktir. Bu nedenle IECC'yi kullanarak bu etiketi IE'de gizleyin. -->
+          <!--[if !IE]>-->
+          <object type="application/x-shockwave-flash" data="FLVPlayer_Progressive.swf" width="422" height="251">
+            <!--<![endif]-->
+            <param name="quality" value="high">
+            <param name="wmode" value="opaque">
+            <param name="scale" value="noscale">
+            <param name="salign" value="lt">
+            <param name="FlashVars" value="&amp;MM_ComponentVersion=1&amp;skinName=Halo_Skin_3&amp;streamName=video/pasta&amp;autoPlay=false&amp;autoRewind=false" />
+            <param name="swfversion" value="8,0,0,0">
+            <param name="expressinstall" value="Scripts/expressInstall.swf">
+            <!-- Tarayıcı, Flash Player 6.0 ve daha eskisini kullanan kullanıcılar için aşağıdaki alternatif içeriği görüntüler. -->
+            <div>
+              <h4>Bu sayfadaki içerik, Adobe Flash Player'ın daha yeni bir sürümünü gerektiriyor.</h4>
+              <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Adobe Flash player Edinin" /></a></p>
+            </div>
+            <!--[if !IE]>-->
+          </object>
+          <!--<![endif]-->
+        </object></td>
+      </tr>
+    </tbody>
+  </table>
+  <p><a href="index.html">ANASAYFA</a></p>
+</div>
+<script type="text/javascript">
+swfobject.registerObject("FLVPlayer");
+</script>
+</body>
+</html>
